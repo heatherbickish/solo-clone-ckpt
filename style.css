@@ -1,0 +1,36 @@
+.charm {
+  font-family: "Charm", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-bg {
+  background-image: url(https://cdn.pixabay.com/photo/2019/11/08/20/54/ring-4612457_1280.jpg);
+  background-size: cover;
+
+}
+
+.no-admit-img {
+  background-image: url(https://images.unsplash.com/photo-1511813246609-8057aed99883?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGxvdHJ8ZW58MHx8MHx8fDA%3D);
+  background-size: cover;
+}
+
+/* .off-bottom{
+  margin-top: 6em;
+  }
+  
+  .off-top{
+    margin-bottom: -8em;
+    } */
+
+@media screen and (min-width: 768px) {
+  /* body {
+    background-color: red;
+  } */
+
+  .ring-box {
+    position: relative;
+    top: 5em;
+
+  }
+}
