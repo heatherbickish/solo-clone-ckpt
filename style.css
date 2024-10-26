@@ -1,36 +1,38 @@
-.charm {
-  font-family: "Charm", cursive;
-  font-weight: 400;
-  font-style: normal;
+p {
+  font-family: "Gowun Dodum", sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Eagle Lake", serif;
 }
 
 .header-bg {
-  background-image: url(https://cdn.pixabay.com/photo/2019/11/08/20/54/ring-4612457_1280.jpg);
+  background-image: url(https://images.unsplash.com/photo-1665077713402-ad959854d778?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
 
 }
 
-.no-admit-img {
-  background-image: url(https://images.unsplash.com/photo-1511813246609-8057aed99883?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGxvdHJ8ZW58MHx8MHx8fDA%3D);
+
+.footer-bg {
+  background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/06/middle-earth-map-Cropped.jpg?q=50&fit=crop&w=1140&h=&dpr=1.5);
   background-size: cover;
+
 }
 
-/* .off-bottom{
-  margin-top: 6em;
-  }
-  
-  .off-top{
-    margin-bottom: -8em;
-    } */
 
 @media screen and (min-width: 768px) {
-  /* body {
-    background-color: red;
-  } */
+
 
   .ring-box {
     position: relative;
     top: 5em;
+  }
 
+  .walk-mordor {
+    line-height: 2em;
   }
 }
